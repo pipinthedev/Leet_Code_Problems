@@ -4,7 +4,13 @@
     });
     
     readline.question('Enter the Number to find cube :', num => {
-       const num2 = num;
-       let cube = num2*num2*num2;
-       console.log(cube);
+        no = num;
+        if (no <= 0) {
+           console.log( "Not able to do the minus number.");
+        }
+        else 
+        {
+            let cube = no*no*no;
+            console.log(cube);
+        }
     });

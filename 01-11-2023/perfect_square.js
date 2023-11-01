@@ -16,7 +16,5 @@ readline.question('Enter the Number 1 :', num1 => {
         console.log('no');
        }
      }
-
      per(num1);
-     
 });

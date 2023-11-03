@@ -1,4 +1,3 @@
-
 var ok = new Date;
 var year = ok.getFullYear();
 var month = ok.getMonth();
